@@ -115,3 +115,30 @@
 //   .catch((error) => {
 //     console.log(error);
 //   });
+
+// Use the prompt feature to take input from the user
+
+// Process to Handle the API to get the Web Extract
+
+// const body = {
+//   url_path: "https://worqhat.com",
+//   headline: true,
+//   code_blocks: true,
+//   inline_code: true,
+//   references: true,
+//   tables: true,
+// };
+// const options = {
+//   method: "POST",
+//   headers: {
+//     Authorization: "Bearer sk-721170e3cd914bd08a2f77113815d38e",
+//     "Content-Type": "application/json",
+//   },
+//   body: JSON.stringify(body),
+// };
+
+// fetch("https://api.worqhat.com/api/ai/v2/web-extract", options)
+//   .then((response) => response.json())
+//   .then((response) => console.log(response))
+//   .catch((err) => console.error(err));
+
